@@ -71,7 +71,7 @@ curl "http://127.0.0.1:20000/apisix/admin/routes/1" \
     }
 }'
 
-require
+request
 
 curl -i -X GET "http://127.0.0.1:9080/admin/xxx/xxx" -H "Host: 192.168.0.1" -H "Authorization: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE2ODEwMzIzMDMsImlhdCI6MTY3ODQ0MDMwMywia2V5IjoidXNlciIsInVzZXJJZCI6MX0.0WrFZ8RC9TUGSDkl2S66GrKcbKXNfLeWCvb9OReSsy4"
 
